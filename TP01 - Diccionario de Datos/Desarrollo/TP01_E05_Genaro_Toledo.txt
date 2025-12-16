@@ -1,0 +1,63 @@
+Una empresa tiene tres sucursales y desea conocer el total de las Recaudaciones de cada
+Sucursal y el Total recaudado por las 3 sucursales.
+
+Los datos llegan por rubro de productos: Computación, Televisión
+
+---------------------------------------------------
+DICCIONARIO DE DATOS
+
+	VARIABLES PRIMARIAS
+	
+		recSucursalX - Recaudación total de la sucursal X - REAL		
+		recSucursalY - Recaudación total de la sucursal Y - REAL
+		recSucursalZ - Recaudación total de la sucursal Z - REAL
+	
+		recComputacionX - Recaudación del rubro "computación" de la sucursal X - REAL
+		recTelevisionX - Recaudación del rubro "televisión" de la sucursal X - REAL
+		
+		recComputacionY - Recaudación del rubro "computación" de la sucursal Y - REAL
+		recTelevisionY - Recaudación del rubro "televisión" de la sucursal Y - REAL
+		
+		recComputacionZ - Recaudación del rubro "computación" de la sucursal Z - REAL
+		recTelevisionZ - Recaudación del rubro "televisión" de la sucursal Z - REAL
+		
+DICCIONARIO DE RESULTADOS
+
+		recTotal - Recaudación total de las sucursales - REAL
+	
+DICCIONARIO DE CONDICIONES VINCULANTES
+		
+		//Ingreso de datos
+		
+		MOSTRAR ("Ingrese recaudación del rubro "computación" de la sucursal X")
+		LEER recComputacionX
+		MOSTRAR ("Ingrese recaudación del rubro "televisión" de la sucursal X")
+		LEER recTelevisionX
+		
+		MOSTRAR ("Ingrese recaudación del rubro "computación" de la sucursal Y")
+		LEER recComputacionY
+		MOSTRAR ("Ingrese recaudación del rubro "televisión" de la sucursal Y")
+		LEER recTelevisionY
+		
+		MOSTRAR ("Ingrese Recaudación del rubro "computación" de la sucursal Z")
+		LEER recComputacionZ
+		MOSTRAR ("Ingrese recaudación del rubro "televisión" de la sucursal Z")
+		LEER recTelevisionZ
+	
+		//Obtener recaudación de las sucursales
+		
+		recSucursalX = recComputacionX + recTelevisionX;
+		recSucursalY = recComputacionY + recTelevisionY;
+		recSucursalZ = recComputacionZ + recTelevisionZ;
+	
+		//Obtener la recaudación total de las sucursales
+		
+		recTotal = recSucursalX + recSucursalY + recSucursalZ;
+		
+		//Mostrar resultados en pantalla
+		
+		MOSTRAR ("La recaudación de la sucursal X es: "),recSucursalX
+		MOSTRAR ("La recaudación de la sucursal Y es: "),recSucursalY
+		MOSTRAR ("La recaudación de la sucursal Z es: "), recSucursalZ
+				
+		MOSTRAR ("La recaudacion total es: "),recTotal

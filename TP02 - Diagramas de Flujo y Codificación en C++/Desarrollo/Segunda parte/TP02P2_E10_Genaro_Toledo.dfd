@@ -1,0 +1,121 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+41
+'Ingrese la cantidad de números analizar'
+5
+1
+8
+cantidad
+9
+1
+13
+cantidad <= 0
+4
+1
+47
+'La cantidad es incorrecta. Ingrese nuevamente'
+5
+1
+8
+cantidad
+11
+8
+1
+1
+x
+1
+1
+1
+1
+8
+cantidad
+1
+1
+1
+6
+2
+7
+residuo
+1
+0
+9
+operacion
+1
+0
+4
+1
+30
+'Ingrese el número a analizar'
+5
+1
+6
+numero
+9
+1
+11
+numero <= 0
+4
+1
+69
+'El numero debe ser positivo y  distinto de cero. Ingrese nuevamente'
+5
+1
+6
+numero
+11
+8
+1
+7
+divisor
+1
+1
+1
+1
+2
+10
+1
+1
+1
+6
+1
+9
+operacion
+22
+(numero) mod (divisor)
+7
+0
+1
+13
+operacion = 0
+13
+6
+1
+7
+residuo
+11
+residuo + 1
+13
+10
+7
+0
+1
+11
+residuo = 2
+4
+1
+35
+'El número ',numero, ' NO ES PRIMO'
+13
+4
+1
+32
+'El número ',numero, ' ES PRIMO'
+13
+10
+1

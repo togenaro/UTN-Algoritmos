@@ -1,0 +1,79 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+7
+docente
+1
+0
+12
+sueldoBasico
+5
+20000
+9
+zonaRural
+19
+sueldoBasico * 0.25
+6
+1
+9
+zonaOtros
+19
+sueldoBasico * 0.19
+4
+1
+24
+'Zona "alta montaña": 1'
+4
+1
+23
+'Resto de las zonas: 2'
+4
+1
+33
+'Elegir zona del docente (1 o 2)'
+5
+1
+7
+docente
+9
+1
+29
+docente != 1 and docente != 2
+4
+1
+35
+'Ingresar un valor correcto(1 o 2)'
+5
+1
+7
+docente
+11
+7
+0
+1
+11
+docente = 1
+6
+1
+11
+sueldoFinal
+24
+sueldoBasico + zonaOtros
+13
+6
+1
+11
+sueldoFinal
+24
+sueldoBasico + zonaRural
+13
+4
+1
+35
+'El sueldo final es: ', sueldoFinal
+1

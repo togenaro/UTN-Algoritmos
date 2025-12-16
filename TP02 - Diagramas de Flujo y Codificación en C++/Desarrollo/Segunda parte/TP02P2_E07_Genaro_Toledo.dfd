@@ -1,0 +1,84 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+43
+'Ingrese la cantidad de números a analizar'
+5
+1
+8
+cantidad
+9
+1
+12
+cantidad < 0
+4
+1
+47
+'La cantidad es incorrecta. Ingrese nuevamente'
+5
+1
+8
+cantidad
+11
+8
+1
+1
+i
+1
+1
+1
+1
+8
+cantidad
+1
+1
+1
+6
+1
+9
+factorial
+1
+1
+4
+1
+13
+'NÚMERO: ', i
+4
+1
+19
+'Ingrese un número'
+5
+1
+1
+n
+8
+1
+1
+x
+1
+1
+1
+1
+1
+n
+1
+1
+1
+6
+1
+9
+factorial
+13
+factorial * x
+10
+4
+1
+48
+'El factorial del número ',n, ' es: ', factorial
+10
+1

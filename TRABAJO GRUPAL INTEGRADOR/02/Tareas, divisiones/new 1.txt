@@ -1,0 +1,16 @@
+ESPACIOS (TAREAS)
+1: Inicio de sesion
+2: Ingresar cliente
+3: Visualizar informe
+4: Registrar evolucion de tratamiento
+
+RECEPCIONISTAS(TAREAS)
+2: Registrar cliente
+3: Registrar turno
+4: Listado de atenciones por profesional y fecha
+
+ADMINISTRACION(TAREAS)
+1: Registrar usuario profesional
+2: Registrar usuario recepcionista
+3: Atenciones por profesional
+4: Ranking de profesionales por atenciones

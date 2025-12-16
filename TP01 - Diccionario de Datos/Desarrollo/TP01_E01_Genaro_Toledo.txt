@@ -1,0 +1,38 @@
+Conociendo el total de ventas mensual de una empresa. Cuyo porcentajes de ganancia en cada uno de los rubros fue:
+
+Sanitarios 25%
+Electricidad 40%
+Gas 30%
+Otros 5%
+
+SE PIDE
+a. Mostrar el monto que vendió la empresa en cada uno de sus rubros.
+-------------------------------------
+
+DICCIONARIO DE DATOS
+
+	VARIABLES PRIMARIAS		
+	
+		totalVentas - Total de ventas de todos los rubros de la empresa - REAL
+		totalVentasSanitarios - Total de ventas que realizo la empresa en rubro sanitarios - REAL
+		totalVentasElectricidad - Total de ventas que realizo la empresa en rubro electricidad - REAL
+		totalVentasGas - Total de ventas que realizo la empresa en rubro gas - REAL
+		totalVentasOtros - Total de ventas que realizo la empresa en otros - REAL 	
+		
+	VARIABLES SECUNDARIAS
+	
+		porcentajeSanitarios  = 0.25% - Porcentaje de ventas "Sanitarios" sobre el total de ventas - REAL [CONSTANTE]
+		porcentajeElectricidad  = 0.40% - Porcentaje de ventas "Electricidad" sobre el total de ventas - REAL [CONSTANTE]
+		porcentajeGas = 0.30% - Porcentaje de ventas "Gas" sobre el total de ventas - REAL [CONSTANTE]
+		porcentajeOtros = 0.05% - Porcentaje de ventas "otros" sobre el total de ventas - REAL [CONSTANTE]
+	
+
+CONDICIONES VINCULANTES
+		
+	ESCRIBIR totalVentas
+	
+	totalVentasSanitarios = (porcentajeSanitarios / totalVentas)
+	totalVentasElectricidad = (porcentajeElectricidad / totalVentas)
+	totalVentasGas = (porcentajeGas / totalVentas)
+	totalVentasSanitarios = (porcentajeSanitarios / totalVentas)
+	totalVentasOtros = (porcentajeOtros / totalVentas)

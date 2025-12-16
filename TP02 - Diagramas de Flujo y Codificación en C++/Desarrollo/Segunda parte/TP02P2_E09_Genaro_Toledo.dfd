@@ -1,0 +1,134 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+8
+dniMayor
+1
+0
+11
+sueldoMayor
+1
+0
+11
+sueldoTotal
+1
+0
+6
+1
+16
+sueldoIntermedio
+1
+0
+4
+1
+34
+'Ingrese la cantidad de empleados'
+5
+1
+17
+cantidadEmpleados
+9
+1
+22
+cantidadEmpleados <= 0
+4
+1
+54
+'Cantidad de empleados incorrecta. Ingrese nuevamente'
+5
+1
+17
+cantidadEmpleados
+11
+8
+1
+1
+x
+1
+1
+1
+1
+17
+cantidadEmpleados
+1
+1
+1
+4
+1
+22
+'EMPLEADO NÚMERO: ', x
+4
+1
+32
+'Ingrese el D.N.I. del empleado'
+5
+1
+3
+dni
+4
+1
+32
+'Ingrese el sueldo del empleado'
+5
+1
+6
+sueldo
+7
+0
+1
+39
+(sueldo >= 38500) and (sueldo <= 65300)
+13
+6
+1
+16
+sueldoIntermedio
+20
+sueldoIntermedio + 1
+13
+7
+0
+1
+20
+sueldo > sueldoMayor
+13
+6
+2
+11
+sueldoMayor
+6
+sueldo
+8
+dniMayor
+3
+dni
+13
+6
+1
+11
+sueldoTotal
+20
+sueldoTotal + sueldo
+10
+4
+1
+92
+'La cantidad de empleados que tienen el sueldo entre 39.500 y 65.300 es: ', sueldoIntermedio
+4
+1
+35
+'El sueldo mayor es: ', sueldoMayor
+4
+1
+53
+'El DNI del empleado con mayor sueldo es: ', dniMayor
+4
+1
+58
+'El sueldo total de todos los empleados es: ', sueldoTotal
+1

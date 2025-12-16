@@ -1,0 +1,215 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+11
+numeroSocio
+1
+0
+9
+edadSocio
+1
+0
+12
+deporteSocio
+1
+0
+6
+3
+9
+sexoSocio
+1
+0
+8
+CMAYORES
+1
+0
+7
+CFUTBOL
+1
+0
+6
+3
+8
+CMUJERES
+1
+0
+8
+CHOMBRES
+1
+0
+8
+CMENORES
+1
+0
+4
+1
+31
+'Ingrese el número del socio: '
+5
+1
+11
+numeroSocio
+9
+1
+16
+numeroSocio != 0
+4
+1
+29
+'Ingrese la edad del socio: '
+5
+1
+9
+edadSocio
+9
+1
+14
+edadSocio <= 0
+4
+1
+43
+'La edad es incorrecta. Ingrese nuevamente'
+5
+1
+9
+edadSocio
+11
+7
+0
+1
+38
+(edadSocio >= 30) and (edadSocio <=50)
+6
+1
+8
+CMENORES
+12
+CMENORES + 1
+13
+6
+1
+8
+CMAYORES
+12
+CMAYORES + 1
+13
+4
+1
+48
+'DEPORTES - 1: Fútbol | 2: Natación | 3: Jockey'
+4
+1
+52
+'Ingrese el deporte que realiza el socio (1, 2 o 3)'
+5
+1
+12
+deporteSocio
+9
+1
+40
+(deporteSocio <= 0) or (deporteSocio >3)
+4
+1
+56
+'El deporte ingresado es incorrecto, ingrese nuevamente'
+5
+1
+12
+deporteSocio
+11
+7
+0
+1
+16
+deporteSocio = 1
+13
+7
+1
+1
+15
+edadSocio >= 30
+6
+1
+7
+CFUTBOL
+8
+CMAYORES
+13
+13
+13
+4
+1
+32
+'Sexo - HOMBRES: 1 | MUJERES: 2'
+4
+1
+27
+'Ingrese el sexo del socio'
+5
+1
+9
+sexoSocio
+9
+1
+35
+(sexoSocio <= 0) or (sexoSocio > 3)
+4
+1
+43
+'El sexo es incorrecto. Ingrese nuevamente'
+5
+1
+9
+sexoSocio
+11
+7
+0
+1
+13
+sexoSocio = 1
+6
+1
+8
+CMUJERES
+12
+CMUJERES + 1
+13
+6
+1
+8
+CHOMBRES
+12
+CHOMBRES + 1
+13
+4
+1
+76
+'La cantidad de socios entre 30 y 50 años que realizan fútbol es: ', CFUTBOL
+4
+1
+66
+'La cantidad de socios femeninos que tiene el club es :', CMUJERES
+4
+1
+67
+'La cantidad de socios masculinos que tiene el club es: ', CHOMBRES
+4
+1
+72
+'La cantidad de socios menores de edad que tiene el club es: ', CMENORES
+4
+1
+25
+'Ingrese número de socio'
+5
+1
+11
+numeroSocio
+11
+1

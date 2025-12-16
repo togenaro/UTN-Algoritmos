@@ -1,0 +1,54 @@
+ Ingrese una cantidad no definida de valores enteros y determine la suma de los valores
+pares y la suma de los valores impares ingresados. Utilizar una bandera para terminar el ciclo
+el ciclo cuando el valor ingresado sea cero
+
+-----------------------------------------
+DICCIONARIO DE DATOS
+
+	VARIABLES PRIMARIAS
+	
+		N - Número a ingresar - ENTERO
+		BANDERA = 0 - Bandera para terminar el ciclo - ENTERO [CONSTANTE]
+	
+	VARIABLES SECUNDARIAS
+	
+		numerosPares - Números pares - ENTERO
+		numerosImpares - Numeros impares - ENTERO
+		modulo - Módulo del número ingresado - ENTERO
+		
+DICCIONARIO DE RESULTADOS
+
+		sumaPares - Suma de los valores pares - ENTERO
+		sumaImpares - Suma de los valores impares - ENTERO 
+
+DICCIONARIO DE CONDICIONES VINCULANTES	
+
+		MOSTRAR ('Ingrese un número')
+		LEER N
+		
+	//Condición lógica	
+		
+		MIENTRAS (N != BANDERA)
+		
+			modulo = N mod 2
+		
+	//Cálculo par e impar
+	
+			SI (modulo = 0)
+			
+				MOSTRAR ('El número es par')
+				numerosPares = numerosPares + 1
+				sumaPares sumaPares + N
+				
+			SINO
+			
+				MOSTRAR ('El número es impar')
+				numerosImpares = numerosImpares + 1
+				sumaImpares = sumaImpares + N
+				
+		MOSTRAR ('Numeros pares: ', numerosPares)
+		MOSTRAR ('Números Ipares: ', numerosImpares)
+		MOSTRAR (Suma de Pares: ', sumaPares)
+		MOSTRAR ('Suma de Impares: ', sumaImpares)
+			
+		

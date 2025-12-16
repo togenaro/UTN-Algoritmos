@@ -1,0 +1,118 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+1
+N
+1
+0
+7
+BANDERA
+1
+0
+12
+numerosPares
+1
+0
+6
+3
+14
+numerosImpares
+1
+0
+9
+sumaPares
+1
+0
+11
+sumaImpares
+1
+0
+6
+1
+6
+modulo
+1
+0
+4
+1
+19
+'Ingrese un número'
+5
+1
+1
+N
+9
+1
+12
+N != BANDERA
+6
+1
+6
+modulo
+7
+N mod 2
+7
+0
+1
+10
+modulo = 0
+7
+0
+1
+10
+modulo = 1
+13
+6
+2
+11
+sumaImpares
+15
+sumaImpares + N
+14
+numerosImpares
+18
+numerosImpares + 1
+13
+13
+6
+2
+12
+numerosPares
+16
+numerosPares + 1
+9
+sumaPares
+13
+sumaPares + N
+13
+4
+1
+24
+'Pares:  ', numerosPares
+4
+1
+27
+'Impares: ', numerosImpares
+4
+1
+28
+'Suma de pares: ', sumaPares
+4
+1
+32
+'Suma de Impares: ', sumaImpares
+4
+1
+21
+'Ingrese otro número'
+5
+1
+1
+N
+11
+1

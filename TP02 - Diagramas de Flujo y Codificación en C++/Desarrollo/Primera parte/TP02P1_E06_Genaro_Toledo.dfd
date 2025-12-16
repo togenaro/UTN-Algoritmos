@@ -1,0 +1,82 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+1
+X
+1
+0
+1
+Y
+1
+0
+1
+Z
+1
+0
+4
+1
+20
+'Ingresar valor X: '
+5
+1
+1
+X
+4
+1
+20
+'Ingresar valor Y: '
+5
+1
+1
+Y
+4
+1
+18
+'Ingresar valor Z'
+5
+1
+1
+Z
+7
+0
+1
+15
+(X>Y) and (X>Z)
+7
+0
+1
+15
+(Y>X) and (Y>Z)
+7
+0
+1
+15
+(Z>X) and (Z>Y)
+4
+1
+47
+'Los tres número ingresados son de igual valor'
+13
+4
+1
+27
+'El número "Z" es el mayor'
+13
+13
+4
+1
+27
+'El número "Y" es el mayor'
+13
+13
+4
+1
+27
+'El número "X" es el mayor'
+13
+1

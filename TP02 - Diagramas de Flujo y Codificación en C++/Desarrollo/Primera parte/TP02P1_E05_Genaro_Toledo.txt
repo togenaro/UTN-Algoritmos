@@ -1,0 +1,45 @@
+ Una agencia de venta de autos paga a su personal de ventas un salario de $40.000,00
+más una comisión de $2000,00 por autos vendido. más un 5% del valor de venta. 
+
+	Analizar el problema para calcular el salario de un vendedor en un determinado mes, conociendo 
+	la cantidad de automóviles vendidos en el mes y el total del monto de ventas.
+	
+-------------------------------------------------------
+DICCIONARIO DE DATOS
+
+	VARIABLES PRIMARIAS
+	
+		totalAutos - Cantidad de autos vendidos por el personal - ENTERO
+		montoVentas - Monto total de las ventas - ENTERO
+		
+		salario = 40000 - Salario del personal de ventas - ENTERO [CONSTANTE]
+	
+	VARIABLES SECUNDARIAS
+	
+		comisionPorAutos - Comisión por autos vendidos - REAL 
+		comisionPorVentas - Comisión del valor de las ventas - REAL
+		
+DICCIONARIO DE RESULTADOS
+
+		sueldoBasico - Sueldo basico del personal - REAL
+
+DICCIONARIO DE CONDICIONES VINCULANTES
+
+	//Cálculo de las comisiones
+	
+		comisionPorAutos = totalAutos * 2000
+		comisionPorVentas = totalVentas * 0.05
+		
+			//Ingreso de datos
+	
+		MOSTRAR ('Ingrese cantidad de autos vendidos: ')	
+		LEER totalAutos
+		
+		MOSTRAR ('Ingrese monto total de las ventas: ')
+		LEER montoVentas
+		
+	//Calcular y mostrar sueldo básico
+	
+		sueldoBasico = salario + comisionPorAutos + comisionPorVentas
+		MOSTRAR ('El sueldo basico del personal es: '), sueldoBasico
+		

@@ -1,0 +1,74 @@
+------------------------------------------------------------
+Heterogenea:varios tipos de datos.
+Homogenea: un solo tipo de dato 
+
+El archivo es una colección homogenea de datos.
+La primera escritura que se hace sobre el archivo binario define la estructura del mismo.
+------------------------------------------------------------
+
+------------------------------------------------------------
+FUNCION FSEEK
+
+La variable puntero apunta al archivo que esta fisicamente en el disco.
+La variable intermediaria es la variable en la cual se vuelca la informacion del archivo en el disco.
+Los archivos binarios son archivos de acceso aleatorio.
+Cuando necesitamos abrir un archivo, el puntero queda
+ubicado en un lugar indeterminado.
+
+fseek() se utiliza para reubicar forzadamente el puntero en una posicion deseada.
+
+	//puntero	//desplazamiento	//Reubicación forzada
+fseek(archi, 		0, 					SEEK_SET/END/CUR);
+
+SEK_SET: puntero al principio del archivo. (arbitraria a la función rewind();)
+SEEK_END: puntero al final del archivo.
+SEEK_CUR: puntero queda en donde se ejecuta el archivo.
+------------------------------------------------------------
+
+------------------------------------------------------------
+FUNCION FWRITE
+
+FILE arch;
+int venta = 0;
+
+	//variable	//tamaño de la variable			//puntero
+fwrite(&venta, 		sizeof(venta), 	1,		 arch);
+
+se pone sizeof(venta) para que el lenguaje investigue cual es el tipo de dato de esta variable y calcule su tamaño. Tambien se puede poner el tipo de dato al que pertenece la propia variable (en este caso, int).
+
+El parametro 1 es la cantidad de veces que se va a aplicar la escritura. SIEMPRE ES 1.
+------------------------------------------------------------
+
+------------------------------------------------------------
+EXTRACCION DE DATOS DE UN ARCHIVO
+
+Se utiliza la función fread();
+
+//paso 1 - rebobinar
+rebobinar archivo con sek_set o rewind
+
+//paso 2 - extraer la informacion del archivo
+fread(&variable, sizeof(variable), 1, puntero)
+ 
+//paso 3 - Mientras no sea el fin de archivo, ejecutar
+se hace con:
+archi == NULL; 
+!feof(archi);
+
+while( !feof(archi) )
+{
+	//Paso 4 - Procesar el dato actual
+	
+	//Paso 5 - Mover puntero al siguiente bloque
+	fread(&variable, sizeof(variable), 1, puntero)
+}
+------------------------------------------------------------
+
+------------------------------------------------------------
+COLECCIÓN O CONJUNTO DE DATOS EN UN ARCHIVO
+
+Se dan 3 casos:
+	0 datos
+	1 dato
+	N dato/s
+------------------------------------------------------------

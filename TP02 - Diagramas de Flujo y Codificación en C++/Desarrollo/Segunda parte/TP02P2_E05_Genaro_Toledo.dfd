@@ -1,0 +1,260 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+15
+ventasArticulo1
+1
+0
+15
+ventasArticulo2
+1
+0
+15
+ventasArticulo3
+1
+0
+6
+2
+5
+siono
+1
+1
+16
+porcentajeVentas
+1
+0
+9
+1
+9
+siono = 1
+4
+1
+32
+'Ingrese el código del artículo'
+5
+1
+6
+codigo
+9
+1
+29
+(codigo <= 0) or (codigo > 3)
+4
+1
+39
+'Codigo incorrecto. Ingrese nuevamente'
+5
+1
+6
+codigo
+11
+4
+1
+53
+'Ingrese el total de ventas del artículo en éste mes'
+5
+1
+10
+totalVenta
+7
+0
+1
+10
+codigo = 1
+7
+0
+1
+10
+codigo = 2
+7
+0
+1
+10
+codigo = 3
+13
+6
+1
+15
+ventasArticulo3
+28
+ventasArticulo3 + totalVenta
+13
+13
+6
+1
+15
+ventasArticulo2
+28
+ventasArticulo2 + totalVenta
+13
+13
+6
+1
+15
+ventasArticulo1
+28
+ventasArticulo1 + totalVenta
+13
+4
+1
+61
+'¿Desea ingresar otro artículo= (SI: 1|NO: CUALQUIER NÚMERO)'
+5
+1
+5
+siono
+11
+6
+1
+12
+importeTotal
+47
+ventasArticulo1+ventasArticulo2+ventasArticulo3
+4
+1
+72
+'El importe total de ventas de los tres artículos es de: ', importeTotal
+7
+0
+1
+71
+(ventasArticulo1>ventasArticulo2) and (ventasArticulo1>ventasArticulo3)
+7
+0
+1
+71
+(ventasArticulo2>ventasArticulo1) and (ventasArticulo2>ventasArticulo3)
+7
+0
+1
+71
+(ventasArticulo3>ventasArticulo1) and (ventasArticulo3>ventasArticulo2)
+13
+6
+1
+16
+porcentajeVentas
+36
+(ventasArticulo3/importeTotal) * 100
+4
+1
+42
+'El código del artículo más vendido es: 3'
+4
+1
+66
+'La cantidad que se vendió de éste artículo es: ', ventasArticulo3
+4
+1
+78
+'El porcentaje de ventas sobre el total del artículo 3 es: ', porcentajeVentas
+13
+13
+6
+1
+16
+porcentajeVentas
+36
+(ventasArticulo2/importeTotal) * 100
+4
+1
+42
+'El código del artículo más vendido es: 2'
+4
+1
+66
+'La cantidad que se vendió de éste artículo es: ', ventasArticulo2
+4
+1
+78
+'El porcentaje de ventas sobre el total del artículo 2 es: ', porcentajeVentas
+13
+13
+6
+1
+16
+porcentajeVentas
+36
+(ventasArticulo1/importeTotal) * 100
+4
+1
+42
+'El código del artículo más vendido es: 1'
+4
+1
+66
+'La cantidad que se vendió de éste artículo es: ', ventasArticulo1
+4
+1
+78
+'El porcentaje de ventas sobre el total del artículo 1 es: ', porcentajeVentas
+13
+7
+0
+1
+89
+(ventasArticulo1 = ventasArticulo2) and (ventasArticulo1 != 0) and (ventasArticulo2 != 0)
+7
+0
+1
+89
+(ventasArticulo1 = ventasArticulo3) and (ventasArticulo1 != 0) and (ventasArticulo3 != 0)
+7
+0
+1
+89
+(ventasArticulo2 = ventasArticulo3) and (ventasArticulo2 != 0) and (ventasArticulo3 != 0)
+13
+6
+1
+16
+porcentajeVentas
+52
+((ventasArticulo2+ventasArticulo3)/importeTotal)*100
+4
+1
+56
+'La cantidad vendida de los artículos 2 y 3 es la mísma'
+4
+1
+74
+'El porcentaje de ventas de los artículos 2 y 3 es de: ', porcentajeVentas
+13
+13
+6
+1
+16
+porcentajeVentas
+54
+((ventasARticulo1 + ventasArticulo3)/importeTotal)*100
+4
+1
+56
+'La cantidad vendida de los articulos 1 y 3 es la misma'
+4
+1
+74
+'El porcentaje de ventas de los artículos 1 y 3 es de: ', porcentajeVentas
+13
+13
+6
+1
+16
+porcentajeVentas
+52
+((ventasArticulo1+ventasArticulo2)/importeTotal)*100
+4
+1
+56
+'La cantidad vendida de los artículos 1 y 2 es la misma'
+4
+1
+74
+'El porcentaje de ventas de los artículos 1 y 2 es de: ', porcentajeVentas
+13
+1

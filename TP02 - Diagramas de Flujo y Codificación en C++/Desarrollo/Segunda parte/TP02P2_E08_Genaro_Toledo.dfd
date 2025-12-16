@@ -1,0 +1,83 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+6
+digito
+1
+0
+4
+1
+43
+'Ingrese la cantidad de números a analizar'
+5
+1
+8
+cantidad
+9
+1
+13
+cantidad <= 0
+4
+1
+70
+'La cantidad debe ser positiva y distinta de cero. Ingrese nuevamente'
+5
+1
+8
+cantidad
+11
+8
+1
+1
+x
+1
+1
+1
+1
+8
+cantidad
+1
+1
+1
+4
+1
+13
+'NÚMERO: ', x
+4
+1
+34
+'Ingrese un número de tres cifras'
+5
+1
+6
+numero
+9
+1
+32
+(numero < 100) or (numero > 999)
+4
+1
+54
+'El número debe tener tres cifras. Ingrese nuevamente'
+5
+1
+6
+numero
+11
+6
+1
+6
+digito
+13
+numero mod 10
+4
+1
+52
+'El último dígito del número ingresado es: ', digito
+10
+1

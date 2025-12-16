@@ -1,0 +1,78 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+11
+totalVentas
+1
+0
+11
+totalGastos
+1
+0
+8
+impuesto
+4
+0.25
+6
+2
+9
+retencion
+1
+0
+8
+saldNeto
+1
+0
+4
+1
+26
+'Ingresar total de ventas'
+5
+1
+11
+totalVentas
+4
+1
+26
+'Ingresar total de gastos'
+5
+1
+11
+totalGastos
+6
+1
+9
+retencion
+22
+totalVentas * impuesto
+6
+1
+9
+saldoNeto
+39
+totalVentas - (totalgastos + retencion)
+4
+1
+31
+'El saldo neto es: ', saldoNeto
+7
+1
+1
+15
+(saldoNeto <=0)
+4
+1
+19
+'No hubo ganancias'
+13
+4
+1
+16
+'Hubo ganancias'
+13
+1

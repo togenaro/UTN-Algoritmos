@@ -1,0 +1,102 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+1
+X
+1
+0
+1
+Y
+1
+0
+2
+PI
+4
+3.14
+6
+2
+17
+superficieCirculo
+1
+0
+20
+superficieRectangulo
+1
+0
+4
+1
+27
+'Ingresar el primer número'
+5
+1
+1
+X
+4
+1
+28
+'Ingresar el segundo número'
+5
+1
+1
+Y
+9
+1
+7
+(X = Y)
+4
+1
+45
+'Los valores ingresados deben ser diferentes'
+11
+7
+0
+1
+7
+(X < Y)
+6
+1
+17
+superficieCirculo
+12
+PI * (Y * Y)
+13
+6
+1
+17
+superficieCirculo
+12
+PI * (X * X)
+13
+7
+0
+1
+7
+(X > Y)
+6
+1
+20
+superficieRectangulo
+5
+Y * X
+13
+6
+1
+20
+superficieRectangulo
+5
+X * Y
+13
+4
+1
+56
+'La superfcie del rectángulo es: ', superficieRectangulo
+4
+1
+51
+'La superficie del circulo es: ', superficieCirculo
+1

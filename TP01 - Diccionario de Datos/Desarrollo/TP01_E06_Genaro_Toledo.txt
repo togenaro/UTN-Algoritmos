@@ -1,0 +1,60 @@
+El incremento en las Asignaciones de Docentes, según la zona en la que desempeña sus actividades es de 25% (Alta Montaña) o 19% (Resto de las zonas)
+
+	Calcular el aumento y el sueldo final conociendo la zona en la que se desempeña el docente y su sueldo básico actual
+	
+--------------------------------------------
+DICCIONARIO DE DATOS
+
+	VARIABLES PRIMARIAS	
+		
+		sueldoBasico - Sueldo basico actual del docente - REAL
+		zona - Zona a la que pertenece el docente - ENTERO
+		zonaRural = 0,25 - Aumento del sueldo total de los docentes pertenecientes a las "altas montañas" - REAL --> [CONSTANTE]
+		zonaOtros = 0,19 - Aumento del sueldo total de los docentes pertenecientes a "otras zonas" - REAL --> [CONSTANTE]
+		
+	VARIABLES SECUNDARIAS
+	
+		aumentoRural - Cálculo del aumento de la zona rural - REAL
+		aumentoOtros - Cálculo del aumento de otras zonas - REAL
+		
+DICCIONARIO DE RESULTADOS
+
+		sueldoFinal - Sueldo final del docente - REAL
+
+DICCIONARIO DE CONDICIONES VINCULANTES
+	
+	//Ingreso de datos
+	
+		LEER sueldoBasico
+		
+	//Cálculos correspondientes de los aumentos
+	
+		aumentoRural = sueldoBasico * zonaRural
+		aumentoOtros = sueldoBasico * zonaOtros
+	
+	//Verificación de la zona del docente
+
+		LEER zona
+
+		SI (zona = 1)
+	
+			sueldoFinal = sueldoBasico + aumentoRural
+			MOSTRAR ("El aumento del docente es: "), aumentoRural
+		
+		SINO
+		
+			SI (zona = 2)
+		
+				sueldoFinal = sueldoBasico + aumentoOtros
+				MOSTRAR ("El aumento del docente es: "), aumentoOtros
+				
+			SINO
+				
+				SI ((zona != 1) and (zona != 2))
+				
+					MOSTRAR ("Zona ingresada incorrecta.")
+			
+	//Mostrar datos
+	
+		MOSTRAR ("El sueldo basico actual del docente es: "), sueldoBasico
+		MOSTRAR ("El sueldo final del docente es: "), sueldoFinal

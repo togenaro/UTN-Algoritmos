@@ -1,0 +1,53 @@
+ Un Comerciante tributa mensualmente un impuesto provincial a los Ingresos Brutos que
+es el 25% del total de las Ventas. Conociendo el Total todas sus Ventas y el Total de Gastos
+del Mes, averiguar y mostrar el Saldo Neto Mensual y Determinar si tuvo o no ganancia en el
+mes.
+
+---------------------------------------------------------
+DICCIONARIO DE DATOS 
+	
+	VARIABLES PRIMARIAS
+	
+		totalVentas - Total de ventas del mes - REAL
+		totalGastos - Total de gastos del mes - REAL
+	
+	VARIABLES SECUNDARIAS
+	
+		impuesto = 0,25 - Impuesto del total de ventas del mes - REAL [CONSTANTE]
+	
+DICCIONARIO DE RESULTADOS 
+
+		retencion - Retenciones de los ingresos brutos - REAL
+		saldoNeto - Saldo neto mensual - REAL
+
+DICCIONARIO DE CONDICIONES VINCULANTES 
+
+	//Ingreso de datos
+	
+		INGRESAR totalVentas
+		INGRESAR totalGastos
+		
+	//Cálculo del impuesto
+	
+		retencion = totalVentas * impuesto
+		
+	//Averiguar el saldo neto
+	
+		saldoNeto = totalVentas - (totalGastos + retencion)
+		MOSTRAR = saldoNeto
+		
+	//Determinar si hubo ganancias o no
+	
+		SI (saldoNeto <= 0)
+		
+			ENTONCES
+				
+				MOSTRAR ("No hubo ganancias")
+				
+			SINO
+			
+				MOSTRAR ("Hubo ganancias")
+	
+		
+	
+		

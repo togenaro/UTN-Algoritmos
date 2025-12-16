@@ -1,0 +1,37 @@
+Dados 3 números enteros como datos de entradas,
+
+SE PIDE
+	a. Determinar y mostrar cuál es el menor.
+	b. En el caso de que los tres sean iguales, mostrar un mensaje indicando esta situación.}
+	
+-------------------------------------
+
+DICCIONARIO DE DATOS
+
+	VARIABLES PRIMARIAS		
+		
+		A - PRIMER NÚMERO
+		B - SEGUNDO NÚMERO
+		C - TERCER NÚMERO
+
+CONDICIONES VINCULANTES
+		
+		LEER A
+		LEER B
+		LEER C
+	
+		SI (A<C and A<B)
+				
+			MOSTRAR ("El número menor es el "a"")
+				
+		SINO	
+
+			SI (B<C and B<A)				
+				
+				MOSTRAR ("El número menor es el "b"")
+						
+			SINO
+			
+				MOSTRAR ("Los números ingresados son iguales")
+				
+									

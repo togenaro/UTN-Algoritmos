@@ -1,0 +1,59 @@
+Dadas las calificaciones de un alumno de una escuela secundaria, donde las notas representan lo siguiente:
+
+	Primer Trimestre.
+	Segundo Trimestre.
+	Tercer Trimestre.
+	Promedio Anual.
+	
+SE PIDE
+
+	a. Se deberá mostrar por pantalla a través de un mensaje qué alumno aprobó la materia en diciembre y mostrar su nota promedio.
+	Sera regular si tiene entre 6 y 10 en todas sus notas.
+	
+	b. Caso de tener menos de 6 en su promedio, deberá indicar por medio de un mensaje en pantalla que no se encuentra regular.
+	
+------------------------------------------------------------------
+DICCIONARIO DE DÁTOS
+
+		VARIABLES PRIMARIAS
+				
+			PrimerTrimestre - Nota del primer trimestre del alumno - ENTERO
+			SegundoTrimestre - Nota del segundo trimestre del alumno - ENTERO		
+			TercerTrimestre - Nota del tercer trimestre del alumno - ENTERO
+			
+		VARIABLES SECUNDARIAS
+			
+DICCIONARIO DE RESULTADOS
+		
+			PromedioAnual - Promedio anual del alumno - REAL
+		
+DICCIONARIO DE CONDICIONES VINCULANTES
+	
+		LEER PrimerTrimestre
+		LEER SegundoTrimestre
+		LEER TercerTrimestre
+		
+		//Verificar aprobación en diciembre
+			
+			SI (TercerTrimestre >= 6)
+			
+				MOSTRAR ("El alumno aprobó en diciembre")
+				
+			SINO 
+			
+				MOSTRAR ("El alumno no aprobó en diciembre")
+		
+		//Cálculo del promedio anual:
+			
+			PromedioAnual = (PrimerTrimestre + SegundoTrimestre + TercerTrimestre)/3
+			MOSTRAR PromedioAnual
+			
+		//Verificar regularización del alúmno
+			
+			SI (PromedioAnual >= 6 and <=10)
+				
+				MOSTRAR ("El alumno es regular")
+				
+			SINO
+			
+				MOSTRAR ("El alumno no es regular")

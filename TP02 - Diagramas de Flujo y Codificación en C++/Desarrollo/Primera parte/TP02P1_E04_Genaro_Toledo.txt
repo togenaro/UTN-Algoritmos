@@ -1,0 +1,61 @@
+El incremento en las Asignaciones de Docentes, según la zona en la que desempeña sus
+actividades es de 25% (Alta Montaña) o 19% (Resto de las zonas). Calcular el aumento y el
+sueldo final conociendo la zona en la que se desempeña el docente y que el básico actual es
+de $ 20.000,00
+
+-------------------------------------------------------------------------}
+
+DICCIONARIO DE DATOS
+
+	VARIABLES PRIMARIAS
+	
+		docente - Docente a analizar - ENTERO
+		sueldoBasico = 20000 - Sueldo básico actual del docente - ENTERO [CONSTANTE]
+		
+	VARIABLES SECUNDARIAS
+	
+		zonaRural - Zona en la que el docente desempeña sus actividades, perteneciente a las "altas montañas" - REAL  
+		zonaOtros - Zona en la que el docente desempeña sus actividades, perteneciente a "resto de las zonas" - REAL 
+	
+DICCIONARIO DE RESULTADOS
+
+		sueldoFinal - Sueldo final del docente - REAL
+
+DICCIONARIO DE CONDICIONES VINCULANTES
+
+	//Cálculo del aumento
+	
+		zonaRural = sueldoBasico * 0.25
+		zonaOtros = sueldoBasico * 0.19
+		
+	//Determinar a qué zona pertenece el docente
+	
+		MOSTRAR ("Zona "Alta Montaña"": 1)
+		MOSTRAR ("Zona "Resto de las zonas"": 2)
+		MOSTRAR ("Elegir zona del docente (1 o 2): ")
+		LEER docente
+		
+		
+		MIENTRAS (docente != 1 and docente != 2)
+		
+			MOSTRAR ("Ingresar un valor correcto (1 o 2)")
+			
+		SI (docente = 1)
+		
+			sueldoFinal = sueldoBasico + zonaRural
+			
+		SINO 
+		
+			sueldoFinal = sueldoBasico + zonaOtros
+			
+			
+		MOSTRAR ("El sueldo final es: ", sueldoFinal)
+		
+		
+			
+			
+			
+			
+		
+	
+	

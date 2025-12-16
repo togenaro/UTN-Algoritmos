@@ -1,0 +1,85 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+10
+totalAutos
+1
+0
+11
+montoVentas
+1
+0
+7
+salario
+5
+40000
+6
+2
+12
+sueldoBasico
+1
+0
+11
+totalVentas
+1
+0
+6
+2
+16
+comisionPorAutos
+1
+0
+17
+comisionPorVentas
+1
+0
+4
+1
+36
+'Ingrese cantidad de autos vendidos'
+5
+1
+10
+totalAutos
+4
+1
+35
+'Ingrese monto total de las ventas'
+5
+1
+11
+montoVentas
+6
+2
+16
+comisionPorAutos
+17
+totalAutos * 2000
+17
+comisionPorVentas
+18
+montoVentas * 0.05
+6
+1
+12
+sueldoBasico
+46
+salario + comisionPorAutos + comisionPorVentas
+4
+1
+46
+'La comisión por autos es: ', comisionPorAutos
+4
+1
+60
+'La comisión por el total de ventas es: ', comisionPorVentas
+4
+1
+50
+'El sueldo básico del personal es: ', sueldoBasico
+1

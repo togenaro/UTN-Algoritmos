@@ -1,0 +1,59 @@
+SE PIDE
+Mostrar el monto que vendió la empresa en cada uno de sus rubros.
+Dados 3 números A, B y C cualquiera. Realizar lo que en cada caso se pida.
+SE PIDE
+a. Si A es menor a C:
+Mostrar el resultado del producto de A y C. y
+Mostrar un mensaje indicando si dicho resultado es positivo o negativo.
+b. Si C es Mayor a B:
+Mostrar el resultado de dividir B y C. Tener en cuenta que no se puede dividir en cero.
+	
+-------------------------------------
+
+DICCIONARIO DE DATOS
+
+	VARIABLES PRIMARIAS		
+		
+		A - Primer numero - ENTERO
+		B - Segundo numero - ENTERO
+		C - Tercer numero - ENTERO
+		division - Cociente entre B y C - REAL
+		producto - Producto entre A y C - ENTERO
+
+CONDICIONES VINCULANTES
+		
+		LEER A
+		LEER B
+		LEER C
+	
+		SI (A<C)
+				
+			producto = A * C
+			
+			SI (producto < 0)
+					
+				MOSTRAR ("El resultado es negativo)
+				
+			SINO
+			
+				MOSTRAR ("El resultado es positivo)
+				
+			FINSI
+			
+		FINSI
+			
+
+		SI (C>B)				
+				
+			SI (C != 0)
+				
+				division = B / C
+					
+			SINO
+						
+				MOSTRAR ("La division no se pudo realizar")
+					
+			FINSI
+			
+		FINSI
+			

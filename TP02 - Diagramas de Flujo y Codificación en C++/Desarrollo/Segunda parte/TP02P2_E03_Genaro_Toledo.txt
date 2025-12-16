@@ -1,0 +1,105 @@
+Se ingresan los datos de los socios de un club, el ingreso termina cuando se ingrese un
+numero de socio igual a cero.
+
+Los datos ingresados son los siguientes:
+
+	a. Nro. de Socio (numero entero)
+	b. Edad.
+	c. Deporte que realiza (1=Futbol, 2= Natación, 3 = jockey).
+	d. Sexo (1 = Masculinos, 2 = Femeninos).
+	
+SE PIDE
+
+	Cuantos socios entre las edad de 30 y 50 años practican futbol.
+	Cuantos socios femenino tiene el club y cuantos masculinos.
+	Cuantos socios son menores de 16 años.
+
+-------------------------------------------------------------------------------
+DICICONARIO DE DATOS
+
+	VARIABLES PRIMARIAS
+	
+		numeroSocio - Número del socio - ENTERO
+		edadSocio - Edad del socio - ENTERO
+		deporteSocio - Deporte que realiza el socio - ENTERO
+		sexoSocio - Sexo del socio - ENTERO
+		
+DICCIONARIO DE RESULTADOS
+			
+		CMAYORES - Cantidad de socios de edad 30 y 50 que practican fútbol - ENTERO [CONTADOR]
+		CFUTBOL - Cantidad de socios mayores que realizan fútbol - ENTERO [CONTADOR]
+		CHOMBRES - Cantidad de socios de sexo masculino - ENTERO [CONTADOR]
+		CMUJERES - Cantidad de socios de sexo femenino - ENTERO [CONTADOR]
+		CMENORES - Cantidad de socios menores de 16 años - ENTERO [CONTADOR] 
+	
+
+DICCIONARIO DE CONDICIONES VINCULANTES
+
+	//Número del socio
+	
+		MOSTRAR ('Ingrese el número de socio')
+		LEER numeroSocio
+		
+		MIENTRAS (numeroSocio != 0)
+			
+	//Edad del socio
+	
+			MOSTRAR ('Ingrese la edad del socio: ')
+			LEER edadSocio
+			
+			MIENTRAS (edadSocio <= 0)
+			
+				MOSTRAR ('La edad ingresada es incorrecta. Ingrese nuevamente')
+				LEER edadSocio
+				
+			SI (edadSocio >= 30 or edadSocio <= 50)
+			
+				CMAYORES = CMAYORES + 1
+				
+			SINO (edadSocio < 16)
+				
+				CMENORES = CMENORES + 1
+			
+	//Deporte que realiza el socio
+	
+			MOSTRAR ('DEPORTES - 1: Fútbol | 2: Natación | 3: Jockey')
+			MOSTRAR ('Ingrese el deporte que realiza el socio (1, 2 o 3')
+			LEER deporteSocio
+			
+			MIENTRAS (deporteSocio <= 0 and deporteSocio > 3)
+			
+				MOSTRAR ('El valor ingresado es incorrecto, ingrese nuevamente') 
+				LEER deporteSocio
+			
+			SI (deporteSocio = 1)
+				
+				SI (edadSocio >= 30)
+				
+					CFUTBOL = CMAYORES 
+			
+	//Sexo del socio
+	
+			MOSTRAR ('Sexo - HOMBRES: 1 | MUJERES: 2')
+			MOSTRAR ('Ingrese el sexo del socio')
+			LEER sexoSocio
+		
+			MIENTRAS (sexoSocio <= 0) or (sexoSocio > 3)
+			
+				MOSTRAR ('El valor ingresado es incorrecto. Ingrese nuevamente')
+				LEER sexoSocio
+				
+			SI (sexoSocio = 1)
+			
+				CHOMBRES = CHOMBRES + 1
+				
+			SINO
+			
+				CMUJERES = CMUJERES + 1		
+		
+	//Mostrar resultados
+	
+			MOSTRAR ('La cantidad de socios entre 30 y 50 años que practican fútbol es: '), CFUTBOL
+			MOSTRAR ('La cantidad de socios femeninos que tiene el club es: '), CMUJERES
+			MOSTRAR ('La cantidad de socios masculinos que tiene el club es: '), CHOMBRES
+			MOSTRAR ('La cantidad de socios menores de edad que tiene el club es: '), CMENORES
+			

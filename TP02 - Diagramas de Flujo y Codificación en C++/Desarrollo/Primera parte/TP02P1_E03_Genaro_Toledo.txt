@@ -1,0 +1,66 @@
+Se ingresan dos números por teclado y diferentes entre sí, en caso de ser iguales se
+deberá mostrar un mensaje indicando que los valores ingresados deben ser diferentes.
+
+SE PIDE
+
+	1. Determinar la superficie de un Círculo, donde el radio es el menor de los valores ingresados. 
+	2. Determinar la superficie de un rectángulo suponiendo que el valor más alto corresponde a su base.
+	
+----------------------------------------------------------------------
+DICCIONARIO DE DATOS
+
+	VARIABLES PRIMARIAS
+	
+		X - Primer número ingresado - ENTERO
+		Y - Segúndo número ingresaro - ENTERO
+	
+	VARIABLES SECUNDARIAS
+	
+		PI = 3.14 - Número "pi" para calcular la superficie del círculo - REAL [CONSTANTE]
+		
+	
+DICCIONARIO DE RESULTADOS
+
+		superficieCirculo - Superficie del círculo - REAL
+		superficieRectangulo - Superficie del rectangulo - REAL
+
+DICCIONARIO DE CONDICIONES VINCULANTES
+
+	//Ingreso de datos
+	
+		INGRESAR X
+		INGRESAR Y
+			
+	//Condición de igualdad
+
+		MIENTRAS (X = Y)
+		
+			MOSTRAR ("Los valores ingresados deben ser diferentes")
+			
+	//Cálculo de superficie del círculo
+	
+		SI (X < Y)
+		
+			superficieCirculo = PI * (X * X)
+			
+		SINO
+
+			superficieCirculo = PI * (Y * Y)
+			
+	//Cálculo de superficie del rectangulo
+	
+		SI (X > Y)
+		
+			superficieRectangulo = X * Y
+			
+		SINO
+		
+			superficieRectangulo = Y * X
+			
+	//Mostrar los resultados
+	
+		MOSTRAR superficieCirculo
+		Mostrar superficieRectangulo
+			
+			
+				

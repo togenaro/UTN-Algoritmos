@@ -1,0 +1,40 @@
+Dado 3 valores reales como dato de entrada, Mostrar el mayor de los valores. En caso
+de ser iguales los 3. Mostrar un mensaje indicando que los 3 son iguales.
+
+--------------------------------------------------------------------------
+DICCIONARIO DE DATOS
+
+	VARIABLES PRIMARIAS
+	
+		X - Primer valor ingresado - ENTERO
+		Y - Segundo valor ingresado - ENTERO 
+		Z - Tercer valor ingresado - ENTERO
+
+DICCIONARIO DE CONDICIONES VINCULANTES
+		
+		MOSTRAR ('Ingresar valor X: ')
+		LEER X
+		
+		MOSTRAR ('Ingresar valor Y: ')
+		LEER Y
+		
+		MOSTRAR ('Ingresar valor Z: ')
+		LEER Z
+		
+		SI (X>Y and X>Z)
+		
+			MOSTRAR (El número "X" es el mayor)
+		
+		SINO (Y>X and Y>Z)
+		
+			MOSTRAR (El número "Y" es el mayor)
+			
+		SINO (Z>X and Z>Y)
+		
+			MOSTRAR (El número "Z" es el mayor)
+			
+		SINO 
+		
+			MOSTRAR ("Los tres números ingresados son de igual valor")
+		
+			

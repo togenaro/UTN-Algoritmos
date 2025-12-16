@@ -1,0 +1,35 @@
+Benicio es jefe de bodega en una fábrica de pañales desechables y sabe que la producción diaria es de 744 pañales y que en cada caja donde se 
+empacan para la venta caben 12 pañales. 
+
+¿Cuántas cajas debe conseguir Benicio para empacar los pañales fabricados en una semana laborable de 5 días?
+
+----------------------------------------------
+DICCIONARIO DE DATOS
+
+	VARIABLES PRIMARIAS
+		
+		produccionDiaria = 744 - Producción diaria de cajas - ENTERO [CONSTANTE]
+		cajasDePañales = 12 - Cajas en las cuales caben 12 pañales - ENTERO [CONSTANTE]
+		
+	
+	VARIABLES SECUNDARIAS
+	
+		semanaLaboral = 5 - Semana laboral de 5 días - ENTERO [CONSTANTE]
+		cajasDiarias - Cajas que se necesitan en un día - ENTERO
+	
+DICCIONARIO DE RESULTADOS
+
+		resultadoCajas - Resultado de cuántas cajas se deben conseguir en una semana - REAL
+
+DICCIONARIO DE CONDICIONES VINCULANTES
+
+	//Cálculo de las cajas diarias
+		
+		cajasDiarias = produccionDiaria / cajasDePañales
+		
+	//Cálculo de cajas en 5 días
+	
+		resultadoCajas = cajasDiarias * semanaLaboral
+		
+		MOSTRAR ("Se deben conseguir en una semana laboral ,resultadoCajas") 
+		

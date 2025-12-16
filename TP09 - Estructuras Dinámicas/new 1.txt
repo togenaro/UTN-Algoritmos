@@ -1,0 +1,11 @@
+// ---------------------------------------------------
+
+Una variable es un espacio en memoria que reservamos que nos permite asociar a este espacio de memoria un identificador y datos de un determinado tipo.
+
+STACK y HEAP
+En STACK se almacenan las estructuras de datos estaticas, tales como variables locales y parametros de funciones y direcciones de codigo donde deberan retornar dichas funciones.
+Estos datos ocupan espacios fijos de memoria que no pueden alterarse durante la ejecución del programa.
+
+En HEAP se almacenan las estructuras de datos dinamicas. El espacio de memoria ocupado por estas estructuras pueden aumentar o disminuir durante la ejecución del programa. 
+
+// ---------------------------------------------------
